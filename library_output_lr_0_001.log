@@ -1,0 +1,930 @@
+2024-03-17 12:14:19,078 - INFO - Using cpu device
+2024-03-17 12:14:19,078 - INFO - 
+
+2024-03-17 12:14:19,078 - INFO - Wrapping the env with a `Monitor` wrapper
+2024-03-17 12:14:19,078 - INFO - 
+
+2024-03-17 12:14:19,078 - INFO - Wrapping the env in a DummyVecEnv.
+2024-03-17 12:14:19,078 - INFO - 
+
+2024-03-17 12:14:19,078 - INFO - Wrapping the env in a VecTransposeImage.
+2024-03-17 12:14:19,078 - INFO - 
+
+2024-03-17 12:14:19,871 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:14:19,871 - INFO - 
+
+2024-03-17 12:14:24,134 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.14e+03 |
+|    ep_rew_mean     | -20      |
+| time/              |          |
+|    fps             | 479      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 2048     |
+---------------------------------
+
+2024-03-17 12:14:42,902 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.13e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 177         |
+|    iterations           | 2           |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.016882464 |
+|    clip_fraction        | 0.0936      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.78       |
+|    explained_variance   | 0.0239      |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0648      |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00487    |
+|    value_loss           | 0.357       |
+-----------------------------------------
+
+2024-03-17 12:15:01,244 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.13e+03     |
+|    ep_rew_mean          | -20.6        |
+| time/                   |              |
+|    fps                  | 148          |
+|    iterations           | 3            |
+|    time_elapsed         | 41           |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0076930104 |
+|    clip_fraction        | 0.0271       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.79        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0272       |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.000512    |
+|    value_loss           | 0.0818       |
+------------------------------------------
+
+2024-03-17 12:15:19,558 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.09e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 137         |
+|    iterations           | 4           |
+|    time_elapsed         | 59          |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.010806428 |
+|    clip_fraction        | 0.068       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.78       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0252      |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0035     |
+|    value_loss           | 0.0904      |
+-----------------------------------------
+
+2024-03-17 12:15:38,156 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.07e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 130         |
+|    iterations           | 5           |
+|    time_elapsed         | 78          |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.008475844 |
+|    clip_fraction        | 0.0346      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.76       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0193      |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -3.8e-05    |
+|    value_loss           | 0.0818      |
+-----------------------------------------
+
+2024-03-17 12:15:52,794 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:15:52,794 - INFO - 
+
+2024-03-17 12:15:56,621 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.07e+03 |
+|    ep_rew_mean     | -20.8    |
+| time/              |          |
+|    fps             | 535      |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 12288    |
+---------------------------------
+
+2024-03-17 12:16:15,135 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.06e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 183         |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.010327706 |
+|    clip_fraction        | 0.0415      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.72       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | -0.00463    |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.00207    |
+|    value_loss           | 0.0825      |
+-----------------------------------------
+
+2024-03-17 12:16:33,410 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.05e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 151         |
+|    iterations           | 3           |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.007535317 |
+|    clip_fraction        | 0.0335      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.72       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0427      |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.000967   |
+|    value_loss           | 0.0826      |
+-----------------------------------------
+
+2024-03-17 12:16:51,828 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.05e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 138         |
+|    iterations           | 4           |
+|    time_elapsed         | 59          |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.009936088 |
+|    clip_fraction        | 0.0594      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.73       |
+|    explained_variance   | 1.19e-07    |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.072       |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.0027     |
+|    value_loss           | 0.0842      |
+-----------------------------------------
+
+2024-03-17 12:17:10,123 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.05e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 132         |
+|    iterations           | 5           |
+|    time_elapsed         | 77          |
+|    total_timesteps      | 20480       |
+| train/                  |             |
+|    approx_kl            | 0.016543087 |
+|    clip_fraction        | 0.132       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.71       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0775      |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.00895    |
+|    value_loss           | 0.0867      |
+-----------------------------------------
+
+2024-03-17 12:17:25,028 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:17:25,028 - INFO - 
+
+2024-03-17 12:17:28,965 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.05e+03 |
+|    ep_rew_mean     | -20.9    |
+| time/              |          |
+|    fps             | 520      |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 22528    |
+---------------------------------
+
+2024-03-17 12:17:47,349 - INFO - ----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1.05e+03   |
+|    ep_rew_mean          | -20.9      |
+| time/                   |            |
+|    fps                  | 183        |
+|    iterations           | 2          |
+|    time_elapsed         | 22         |
+|    total_timesteps      | 24576      |
+| train/                  |            |
+|    approx_kl            | 0.01003076 |
+|    clip_fraction        | 0.0648     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.71      |
+|    explained_variance   | 0          |
+|    learning_rate        | 0.001      |
+|    loss                 | 0.0436     |
+|    n_updates            | 110        |
+|    policy_gradient_loss | -0.00353   |
+|    value_loss           | 0.0866     |
+----------------------------------------
+
+2024-03-17 12:18:05,656 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.04e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 151         |
+|    iterations           | 3           |
+|    time_elapsed         | 40          |
+|    total_timesteps      | 26624       |
+| train/                  |             |
+|    approx_kl            | 0.013872493 |
+|    clip_fraction        | 0.0742      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.72       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0138      |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.0029     |
+|    value_loss           | 0.0861      |
+-----------------------------------------
+
+2024-03-17 12:18:24,067 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.04e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 138         |
+|    iterations           | 4           |
+|    time_elapsed         | 59          |
+|    total_timesteps      | 28672       |
+| train/                  |             |
+|    approx_kl            | 0.013455445 |
+|    clip_fraction        | 0.095       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.7        |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0392      |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00581    |
+|    value_loss           | 0.0875      |
+-----------------------------------------
+
+2024-03-17 12:18:42,541 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.04e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 132         |
+|    iterations           | 5           |
+|    time_elapsed         | 77          |
+|    total_timesteps      | 30720       |
+| train/                  |             |
+|    approx_kl            | 0.013833217 |
+|    clip_fraction        | 0.107       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.72       |
+|    explained_variance   | 5.96e-08    |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.00615     |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.00681    |
+|    value_loss           | 0.0866      |
+-----------------------------------------
+
+2024-03-17 12:18:57,331 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:18:57,331 - INFO - 
+
+2024-03-17 12:19:01,333 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.05e+03 |
+|    ep_rew_mean     | -20.9    |
+| time/              |          |
+|    fps             | 511      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 32768    |
+---------------------------------
+
+2024-03-17 12:19:19,907 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.06e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 181         |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 34816       |
+| train/                  |             |
+|    approx_kl            | 0.012424484 |
+|    clip_fraction        | 0.101       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.73       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0639      |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.00779    |
+|    value_loss           | 0.0866      |
+-----------------------------------------
+
+2024-03-17 12:19:38,558 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.07e+03    |
+|    ep_rew_mean          | -20.9       |
+| time/                   |             |
+|    fps                  | 149         |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.008529597 |
+|    clip_fraction        | 0.0624      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.72       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0463      |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.00216    |
+|    value_loss           | 0.0948      |
+-----------------------------------------
+
+2024-03-17 12:19:57,094 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.08e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 137         |
+|    iterations           | 4           |
+|    time_elapsed         | 59          |
+|    total_timesteps      | 38912       |
+| train/                  |             |
+|    approx_kl            | 0.010887733 |
+|    clip_fraction        | 0.0834      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.69       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0818      |
+|    n_updates            | 180         |
+|    policy_gradient_loss | -0.00351    |
+|    value_loss           | 0.0951      |
+-----------------------------------------
+
+2024-03-17 12:20:15,803 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.08e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 130         |
+|    iterations           | 5           |
+|    time_elapsed         | 78          |
+|    total_timesteps      | 40960       |
+| train/                  |             |
+|    approx_kl            | 0.010250401 |
+|    clip_fraction        | 0.0879      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.66       |
+|    explained_variance   | -1.19e-07   |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0594      |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.00361    |
+|    value_loss           | 0.0937      |
+-----------------------------------------
+
+2024-03-17 12:20:30,728 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:20:30,729 - INFO - 
+
+2024-03-17 12:20:34,740 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.08e+03 |
+|    ep_rew_mean     | -20.8    |
+| time/              |          |
+|    fps             | 510      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 43008    |
+---------------------------------
+
+2024-03-17 12:20:53,378 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.09e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 180         |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 45056       |
+| train/                  |             |
+|    approx_kl            | 0.009086512 |
+|    clip_fraction        | 0.0986      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.71       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0334      |
+|    n_updates            | 210         |
+|    policy_gradient_loss | -0.00661    |
+|    value_loss           | 0.101       |
+-----------------------------------------
+
+2024-03-17 12:21:12,053 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.09e+03     |
+|    ep_rew_mean          | -20.8        |
+| time/                   |              |
+|    fps                  | 148          |
+|    iterations           | 3            |
+|    time_elapsed         | 41           |
+|    total_timesteps      | 47104        |
+| train/                  |              |
+|    approx_kl            | 0.0113918185 |
+|    clip_fraction        | 0.0756       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.67        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0367       |
+|    n_updates            | 220          |
+|    policy_gradient_loss | -0.0044      |
+|    value_loss           | 0.0853       |
+------------------------------------------
+
+2024-03-17 12:21:30,676 - INFO - ----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1.1e+03    |
+|    ep_rew_mean          | -20.8      |
+| time/                   |            |
+|    fps                  | 136        |
+|    iterations           | 4          |
+|    time_elapsed         | 59         |
+|    total_timesteps      | 49152      |
+| train/                  |            |
+|    approx_kl            | 0.01512979 |
+|    clip_fraction        | 0.116      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.68      |
+|    explained_variance   | 0          |
+|    learning_rate        | 0.001      |
+|    loss                 | 0.0431     |
+|    n_updates            | 230        |
+|    policy_gradient_loss | -0.00718   |
+|    value_loss           | 0.0969     |
+----------------------------------------
+
+2024-03-17 12:21:49,275 - INFO - ----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 1.11e+03   |
+|    ep_rew_mean          | -20.8      |
+| time/                   |            |
+|    fps                  | 130        |
+|    iterations           | 5          |
+|    time_elapsed         | 78         |
+|    total_timesteps      | 51200      |
+| train/                  |            |
+|    approx_kl            | 0.00917146 |
+|    clip_fraction        | 0.028      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.7       |
+|    explained_variance   | 0          |
+|    learning_rate        | 0.001      |
+|    loss                 | 0.052      |
+|    n_updates            | 240        |
+|    policy_gradient_loss | -0.000865  |
+|    value_loss           | 0.0899     |
+----------------------------------------
+
+2024-03-17 12:22:04,187 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:22:04,188 - INFO - 
+
+2024-03-17 12:22:08,210 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.11e+03 |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    fps             | 509      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 53248    |
+---------------------------------
+
+2024-03-17 12:22:27,101 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 178         |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 55296       |
+| train/                  |             |
+|    approx_kl            | 0.009968406 |
+|    clip_fraction        | 0.0678      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.68       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0446      |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.00371    |
+|    value_loss           | 0.111       |
+-----------------------------------------
+
+2024-03-17 12:22:45,821 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 147         |
+|    iterations           | 3           |
+|    time_elapsed         | 41          |
+|    total_timesteps      | 57344       |
+| train/                  |             |
+|    approx_kl            | 0.015437019 |
+|    clip_fraction        | 0.0609      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.63       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0708      |
+|    n_updates            | 270         |
+|    policy_gradient_loss | -0.00373    |
+|    value_loss           | 0.0839      |
+-----------------------------------------
+
+2024-03-17 12:23:04,576 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 135         |
+|    iterations           | 4           |
+|    time_elapsed         | 60          |
+|    total_timesteps      | 59392       |
+| train/                  |             |
+|    approx_kl            | 0.014646836 |
+|    clip_fraction        | 0.06        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.53       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0122      |
+|    n_updates            | 280         |
+|    policy_gradient_loss | -0.00387    |
+|    value_loss           | 0.0941      |
+-----------------------------------------
+
+2024-03-17 12:23:23,303 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.12e+03     |
+|    ep_rew_mean          | -20.7        |
+| time/                   |              |
+|    fps                  | 129          |
+|    iterations           | 5            |
+|    time_elapsed         | 79           |
+|    total_timesteps      | 61440        |
+| train/                  |              |
+|    approx_kl            | 0.0031091273 |
+|    clip_fraction        | 0.0335       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.47        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.051        |
+|    n_updates            | 290          |
+|    policy_gradient_loss | -0.00109     |
+|    value_loss           | 0.0864       |
+------------------------------------------
+
+2024-03-17 12:23:38,309 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:23:38,310 - INFO - 
+
+2024-03-17 12:23:42,344 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.12e+03 |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    fps             | 507      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 63488    |
+---------------------------------
+
+2024-03-17 12:24:01,028 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 180         |
+|    iterations           | 2           |
+|    time_elapsed         | 22          |
+|    total_timesteps      | 65536       |
+| train/                  |             |
+|    approx_kl            | 0.017205104 |
+|    clip_fraction        | 0.0959      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.37       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0538      |
+|    n_updates            | 310         |
+|    policy_gradient_loss | -0.00568    |
+|    value_loss           | 0.0945      |
+-----------------------------------------
+
+2024-03-17 12:24:19,740 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.12e+03     |
+|    ep_rew_mean          | -20.7        |
+| time/                   |              |
+|    fps                  | 148          |
+|    iterations           | 3            |
+|    time_elapsed         | 41           |
+|    total_timesteps      | 67584        |
+| train/                  |              |
+|    approx_kl            | 0.0063003665 |
+|    clip_fraction        | 0.0319       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.38        |
+|    explained_variance   | 5.96e-08     |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0616       |
+|    n_updates            | 320          |
+|    policy_gradient_loss | -0.00138     |
+|    value_loss           | 0.0872       |
+------------------------------------------
+
+2024-03-17 12:24:39,140 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 134         |
+|    iterations           | 4           |
+|    time_elapsed         | 60          |
+|    total_timesteps      | 69632       |
+| train/                  |             |
+|    approx_kl            | 0.007525215 |
+|    clip_fraction        | 0.0531      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.36       |
+|    explained_variance   | 5.96e-08    |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0617      |
+|    n_updates            | 330         |
+|    policy_gradient_loss | -0.00268    |
+|    value_loss           | 0.0868      |
+-----------------------------------------
+
+2024-03-17 12:41:12,579 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.7       |
+| time/                   |             |
+|    fps                  | 9           |
+|    iterations           | 5           |
+|    time_elapsed         | 1054        |
+|    total_timesteps      | 71680       |
+| train/                  |             |
+|    approx_kl            | 0.011738271 |
+|    clip_fraction        | 0.0497      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.28       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.00772     |
+|    n_updates            | 340         |
+|    policy_gradient_loss | -0.00246    |
+|    value_loss           | 0.0864      |
+-----------------------------------------
+
+2024-03-17 12:41:28,794 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:41:28,794 - INFO - 
+
+2024-03-17 12:41:33,146 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.12e+03 |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    fps             | 470      |
+|    iterations      | 1        |
+|    time_elapsed    | 4        |
+|    total_timesteps | 73728    |
+---------------------------------
+
+2024-03-17 12:41:52,885 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.12e+03     |
+|    ep_rew_mean          | -20.7        |
+| time/                   |              |
+|    fps                  | 170          |
+|    iterations           | 2            |
+|    time_elapsed         | 24           |
+|    total_timesteps      | 75776        |
+| train/                  |              |
+|    approx_kl            | 0.0032488017 |
+|    clip_fraction        | 0.0381       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.16        |
+|    explained_variance   | 5.96e-08     |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0362       |
+|    n_updates            | 360          |
+|    policy_gradient_loss | -0.00107     |
+|    value_loss           | 0.0878       |
+------------------------------------------
+
+2024-03-17 12:42:13,526 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 137         |
+|    iterations           | 3           |
+|    time_elapsed         | 44          |
+|    total_timesteps      | 77824       |
+| train/                  |             |
+|    approx_kl            | 0.006117065 |
+|    clip_fraction        | 0.0599      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.21       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0144      |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.00333    |
+|    value_loss           | 0.0872      |
+-----------------------------------------
+
+2024-03-17 12:42:33,327 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.12e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 126         |
+|    iterations           | 4           |
+|    time_elapsed         | 64          |
+|    total_timesteps      | 79872       |
+| train/                  |             |
+|    approx_kl            | 0.007290161 |
+|    clip_fraction        | 0.0617      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.24       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0449      |
+|    n_updates            | 380         |
+|    policy_gradient_loss | -0.00358    |
+|    value_loss           | 0.0877      |
+-----------------------------------------
+
+2024-03-17 12:42:53,280 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.12e+03     |
+|    ep_rew_mean          | -20.8        |
+| time/                   |              |
+|    fps                  | 121          |
+|    iterations           | 5            |
+|    time_elapsed         | 84           |
+|    total_timesteps      | 81920        |
+| train/                  |              |
+|    approx_kl            | 0.0067211506 |
+|    clip_fraction        | 0.021        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.25        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0217       |
+|    n_updates            | 390          |
+|    policy_gradient_loss | -0.000441    |
+|    value_loss           | 0.089        |
+------------------------------------------
+
+2024-03-17 12:43:08,563 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-LR-0-001_0
+2024-03-17 12:43:08,563 - INFO - 
+
+2024-03-17 12:43:12,552 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 1.13e+03 |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    fps             | 513      |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 83968    |
+---------------------------------
+
+2024-03-17 12:43:39,463 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.13e+03     |
+|    ep_rew_mean          | -20.8        |
+| time/                   |              |
+|    fps                  | 132          |
+|    iterations           | 2            |
+|    time_elapsed         | 30           |
+|    total_timesteps      | 86016        |
+| train/                  |              |
+|    approx_kl            | 0.0051651425 |
+|    clip_fraction        | 0.0748       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.27        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0201       |
+|    n_updates            | 410          |
+|    policy_gradient_loss | -0.00412     |
+|    value_loss           | 0.0929       |
+------------------------------------------
+
+2024-03-17 12:44:14,121 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.13e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 93          |
+|    iterations           | 3           |
+|    time_elapsed         | 65          |
+|    total_timesteps      | 88064       |
+| train/                  |             |
+|    approx_kl            | 0.006609246 |
+|    clip_fraction        | 0.0546      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.26       |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0411      |
+|    n_updates            | 420         |
+|    policy_gradient_loss | -0.00298    |
+|    value_loss           | 0.087       |
+-----------------------------------------
+
+2024-03-17 12:44:43,549 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 1.13e+03    |
+|    ep_rew_mean          | -20.8       |
+| time/                   |             |
+|    fps                  | 86          |
+|    iterations           | 4           |
+|    time_elapsed         | 94          |
+|    total_timesteps      | 90112       |
+| train/                  |             |
+|    approx_kl            | 0.005200554 |
+|    clip_fraction        | 0.055       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.2        |
+|    explained_variance   | 0           |
+|    learning_rate        | 0.001       |
+|    loss                 | 0.0124      |
+|    n_updates            | 430         |
+|    policy_gradient_loss | -0.00324    |
+|    value_loss           | 0.086       |
+-----------------------------------------
+
+2024-03-17 12:45:19,432 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 1.13e+03     |
+|    ep_rew_mean          | -20.8        |
+| time/                   |              |
+|    fps                  | 78           |
+|    iterations           | 5            |
+|    time_elapsed         | 130          |
+|    total_timesteps      | 92160        |
+| train/                  |              |
+|    approx_kl            | 0.0075827143 |
+|    clip_fraction        | 0.0637       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.29        |
+|    explained_variance   | 0            |
+|    learning_rate        | 0.001        |
+|    loss                 | 0.0594       |
+|    n_updates            | 440          |
+|    policy_gradient_loss | -0.00325     |
+|    value_loss           | 0.0848       |
+------------------------------------------
+

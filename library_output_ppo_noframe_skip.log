@@ -1,0 +1,330 @@
+2024-03-17 13:51:46,805 - INFO - Using cpu device
+2024-03-17 13:51:46,805 - INFO - 
+
+2024-03-17 13:51:46,806 - INFO - Wrapping the env in a VecTransposeImage.
+2024-03-17 13:51:46,806 - INFO - 
+
+2024-03-17 13:51:47,334 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 13:51:47,334 - INFO - 
+
+2024-03-17 13:51:55,132 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 3.69e+03 |
+|    ep_rew_mean     | -20.7    |
+| time/              |          |
+|    fps             | 787      |
+|    iterations      | 1        |
+|    time_elapsed    | 7        |
+|    total_timesteps | 6144     |
+---------------------------------
+
+2024-03-17 13:53:15,630 - INFO - ------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 3.68e+03     |
+|    ep_rew_mean          | -20.5        |
+| time/                   |              |
+|    fps                  | 139          |
+|    iterations           | 2            |
+|    time_elapsed         | 88           |
+|    total_timesteps      | 12288        |
+| train/                  |              |
+|    approx_kl            | 0.0067742155 |
+|    clip_fraction        | 0.0311       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.79        |
+|    explained_variance   | 0.00705      |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.000346    |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.00158     |
+|    value_loss           | 0.0688       |
+------------------------------------------
+
+2024-03-17 13:54:27,827 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 13:54:27,827 - INFO - 
+
+2024-03-17 13:54:37,190 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 3.59e+03 |
+|    ep_rew_mean     | -20.5    |
+| time/              |          |
+|    fps             | 656      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 18432    |
+---------------------------------
+
+2024-03-17 13:55:59,478 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 3.68e+03    |
+|    ep_rew_mean          | -20.3       |
+| time/                   |             |
+|    fps                  | 134         |
+|    iterations           | 2           |
+|    time_elapsed         | 91          |
+|    total_timesteps      | 24576       |
+| train/                  |             |
+|    approx_kl            | 0.009086318 |
+|    clip_fraction        | 0.05        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.77       |
+|    explained_variance   | 0.621       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.01        |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.00478    |
+|    value_loss           | 0.0395      |
+-----------------------------------------
+
+2024-03-17 13:57:11,370 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 13:57:11,370 - INFO - 
+
+2024-03-17 13:57:21,328 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 3.71e+03 |
+|    ep_rew_mean     | -20.3    |
+| time/              |          |
+|    fps             | 616      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 30720    |
+---------------------------------
+
+2024-03-17 13:58:45,919 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 3.73e+03    |
+|    ep_rew_mean          | -20.3       |
+| time/                   |             |
+|    fps                  | 129         |
+|    iterations           | 2           |
+|    time_elapsed         | 94          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.008238801 |
+|    clip_fraction        | 0.0819      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.76       |
+|    explained_variance   | 0.535       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 0.0174      |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0111     |
+|    value_loss           | 0.067       |
+-----------------------------------------
+
+2024-03-17 13:59:58,196 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 13:59:58,196 - INFO - 
+
+2024-03-17 14:00:08,458 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 3.78e+03 |
+|    ep_rew_mean     | -20.2    |
+| time/              |          |
+|    fps             | 598      |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 43008    |
+---------------------------------
+
+2024-03-17 14:01:30,977 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 3.84e+03    |
+|    ep_rew_mean          | -20.1       |
+| time/                   |             |
+|    fps                  | 132         |
+|    iterations           | 2           |
+|    time_elapsed         | 92          |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.013857921 |
+|    clip_fraction        | 0.14        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.74       |
+|    explained_variance   | 0.681       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0428     |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0249     |
+|    value_loss           | 0.0564      |
+-----------------------------------------
+
+2024-03-17 14:02:43,463 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 14:02:43,463 - INFO - 
+
+2024-03-17 14:02:52,971 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 3.95e+03 |
+|    ep_rew_mean     | -20      |
+| time/              |          |
+|    fps             | 646      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 55296    |
+---------------------------------
+
+2024-03-17 14:04:15,641 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 3.99e+03    |
+|    ep_rew_mean          | -20.1       |
+| time/                   |             |
+|    fps                  | 133         |
+|    iterations           | 2           |
+|    time_elapsed         | 92          |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.020796252 |
+|    clip_fraction        | 0.221       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.7        |
+|    explained_variance   | 0.551       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0253     |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.0394     |
+|    value_loss           | 0.0599      |
+-----------------------------------------
+
+2024-03-17 14:05:28,417 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 14:05:28,417 - INFO - 
+
+2024-03-17 14:05:38,945 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 4.05e+03 |
+|    ep_rew_mean     | -20      |
+| time/              |          |
+|    fps             | 583      |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 67584    |
+---------------------------------
+
+2024-03-17 14:07:01,977 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 4.16e+03    |
+|    ep_rew_mean          | -19.9       |
+| time/                   |             |
+|    fps                  | 131         |
+|    iterations           | 2           |
+|    time_elapsed         | 93          |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.031113883 |
+|    clip_fraction        | 0.309       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.62       |
+|    explained_variance   | 0.551       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0895     |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.0551     |
+|    value_loss           | 0.0472      |
+-----------------------------------------
+
+2024-03-17 14:08:15,057 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 14:08:15,057 - INFO - 
+
+2024-03-17 14:08:24,657 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 4.29e+03 |
+|    ep_rew_mean     | -19.9    |
+| time/              |          |
+|    fps             | 639      |
+|    iterations      | 1        |
+|    time_elapsed    | 9        |
+|    total_timesteps | 79872    |
+---------------------------------
+
+2024-03-17 14:09:49,456 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 4.38e+03    |
+|    ep_rew_mean          | -19.8       |
+| time/                   |             |
+|    fps                  | 130         |
+|    iterations           | 2           |
+|    time_elapsed         | 94          |
+|    total_timesteps      | 86016       |
+| train/                  |             |
+|    approx_kl            | 0.049243342 |
+|    clip_fraction        | 0.398       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.56       |
+|    explained_variance   | 0.551       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.119      |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.0695     |
+|    value_loss           | 0.0393      |
+-----------------------------------------
+
+2024-03-17 14:11:04,700 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 14:11:04,700 - INFO - 
+
+2024-03-17 14:11:15,434 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 4.47e+03 |
+|    ep_rew_mean     | -19.7    |
+| time/              |          |
+|    fps             | 572      |
+|    iterations      | 1        |
+|    time_elapsed    | 10       |
+|    total_timesteps | 92160    |
+---------------------------------
+
+2024-03-17 14:12:43,778 - INFO - -----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 4.57e+03    |
+|    ep_rew_mean          | -19.6       |
+| time/                   |             |
+|    fps                  | 124         |
+|    iterations           | 2           |
+|    time_elapsed         | 99          |
+|    total_timesteps      | 98304       |
+| train/                  |             |
+|    approx_kl            | 0.057392012 |
+|    clip_fraction        | 0.431       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.52       |
+|    explained_variance   | 0.547       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0855     |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.0733     |
+|    value_loss           | 0.0382      |
+-----------------------------------------
+
+2024-03-17 14:14:01,472 - INFO - Logging to /Users/saisravankathi/Masters/Books/AI_Sem1_Material/Reinforcement Learning/Assignment/PONG/logs/PPO-TEST-NO-FRAME_0
+2024-03-17 14:14:01,472 - INFO - 
+
+2024-03-17 14:14:13,177 - INFO - ---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 4.68e+03 |
+|    ep_rew_mean     | -19.4    |
+| time/              |          |
+|    fps             | 524      |
+|    iterations      | 1        |
+|    time_elapsed    | 11       |
+|    total_timesteps | 104448   |
+---------------------------------
+
+2024-03-17 14:15:42,199 - INFO - ----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 4.78e+03   |
+|    ep_rew_mean          | -19.4      |
+| time/                   |            |
+|    fps                  | 121        |
+|    iterations           | 2          |
+|    time_elapsed         | 100        |
+|    total_timesteps      | 110592     |
+| train/                  |            |
+|    approx_kl            | 0.08109361 |
+|    clip_fraction        | 0.498      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.46      |
+|    explained_variance   | 0.407      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.101     |
+|    n_updates            | 170        |
+|    policy_gradient_loss | -0.0844    |
+|    value_loss           | 0.0369     |
+----------------------------------------
+
